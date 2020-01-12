@@ -11,7 +11,7 @@ This script will install all [requirements][requirements], and then install
 ## Requirements
 
 - [Raspberry Pi 3 B+][raspberry-pi]
-- [Raspbian Stretch Lite][stretch-lite]
+- [Raspbian Buster Lite][buster-lite]
 
 ## Useful Tips
 
@@ -26,11 +26,11 @@ This script will install all [requirements][requirements], and then install
 
 ## Installation Instructions
 
-1. Flash the latest [Raspbian Stretch Lite][stretch-lite] image.
+1. Flash the latest [Raspbian Buster Lite][buster-lite] 64bit image.
 1. Run this as root user (`sudo su`):
 
 ```bash
-curl -sL https://raw.githubusercontent.com/dale3h/hassio-installer/master/hassio_rpi3bp | bash -s
+curl -sL https://raw.githubusercontent.com/atorresq/hassio-installer/master/hassio_rpi3bp | bash -s
 ```
 
 ## Known Issues
